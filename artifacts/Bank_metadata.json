@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "LogMessage",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "deposit",
 				"outputs": [],
@@ -20,6 +33,19 @@
 			{
 				"inputs": [],
 				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerContract",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -47,6 +73,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "printMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -85,11 +131,11 @@
 	},
 	"sources": {
 		"Bank.sol": {
-			"keccak256": "0x7635b42deabbc2f84ce748ad02dd815637bd737a92a8204f91bea33f341adedb",
+			"keccak256": "0xdc419336612c9d11b2c50d6b04f41f90635e403414d6edd3e3676919b40b35af",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f471ac397d3b2177c5bb5d467accc700d764c36dea2fe4f2afd7046088e4f55a",
-				"dweb:/ipfs/QmP8R4GPyxUPDzh5aFDvXF98p6x3FgheuKZtgr5JhbKdQL"
+				"bzz-raw://250e105dab2e5d73a308322bc0e12eaa7291051e8c9037b23e89dabad45c9055",
+				"dweb:/ipfs/QmVe3A1v8pmKzQBsJyrvCxhx8Vi73gBY5Xy8jB5mieBLFq"
 			]
 		}
 	},

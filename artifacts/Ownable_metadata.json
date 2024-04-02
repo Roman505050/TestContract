@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "ownerContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bank.sol": "Ownable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bank.sol": {
+			"keccak256": "0xdc419336612c9d11b2c50d6b04f41f90635e403414d6edd3e3676919b40b35af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://250e105dab2e5d73a308322bc0e12eaa7291051e8c9037b23e89dabad45c9055",
+				"dweb:/ipfs/QmVe3A1v8pmKzQBsJyrvCxhx8Vi73gBY5Xy8jB5mieBLFq"
+			]
+		}
+	},
+	"version": 1
+}
