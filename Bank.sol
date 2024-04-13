@@ -19,13 +19,8 @@ contract Bank is Ownable {
     mapping (address => uint) public  payments;
     event LogMessage(address sender);
 
-    function printMessage(address sender) public {
-        emit LogMessage(sender);
-    }
-
     constructor() {
         owner = msg.sender;
-        printMessage(msg.sender);
     }
 
     function deposit() public payable {
